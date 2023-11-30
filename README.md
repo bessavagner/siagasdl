@@ -5,7 +5,11 @@ Baixador de dados do site siagasweb.sgb.gov.br
 ## Installação
 
 1. Baixe este repositório e extraia seus arquivos (ou clone).
-2. Na pasta do pacote, crie um ambiente de desenvolvimento do Python:
+2. instale o pacote poetry:
+```bash
+pip install poetry
+```
+3. Na pasta do pacote, crie um ambiente de desenvolvimento do Python:
 
 ```bash
 python -m venv .venv
@@ -27,15 +31,10 @@ Antes de ativar o ambiente de desenvolvimento, execute o seguinte comando:
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser -Force
 ```
 
-E então ative o ambiente:
+4. Então ative o ambiente:
 
 ```shell
 .\.env\Scripts\Activate.ps1
-```
-
-4. Depois disso, instale o pacote poetry:
-```bash
-pip install poetry
 ```
 
 5. E finalmente, instale o pacote `siagasdl`:
