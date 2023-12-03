@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "siagasdl"
-version = "0.2.0"
+version = "1.0.0"
 description = "Baixador de dados do site siagasweb.sgb.gov.br"
 authors = ["Vagner Bessa"]
 license = "None"
