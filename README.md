@@ -34,7 +34,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser -Force
 4. Então ative o ambiente:
 
 ```shell
-.\.env\Scripts\Activate.ps1
+.\.venv\Scripts\Activate.ps1
 ```
 
 5. E finalmente, instale o pacote `siagasdl`:
